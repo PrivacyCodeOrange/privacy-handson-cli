@@ -3,6 +3,9 @@ name = "privacy_hands_on"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "handson"
+
 [dependencies]
 clap = { version = "4.6.7", features = ["derive"] }
 minreq = { version = "3.0.0", features = ["https", "json-using-serde", "urlencoding"] }
